@@ -24,15 +24,34 @@ ZettaBlock supports the following chains and is continuously onboarding new chai
 | Sui                   | Yes       | No        | No             |
 | zkSync                | Yes       | Yes       | Yes            |
 
-## Table Typees
+## Table Types
 
 There are several types of tables:
 
-**Decoded Raw Tables**: Row tables with decoded data saved together. Includes blocks, transactions, logs and traces for EVM chains. There are different tables for various Non-EVM chains.
+**Raw Tables**: Row tables with decoded data saved together. Includes blocks, transactions, logs and traces for EVM chains. There are different tables for various Non-EVM chains.
+
 **Core Event Tables**: Core event tables derived from logs, includes erc20_evt_transfer, erc721_evt_transfer, erc1155_evt_transfer_batch, erc1155_evt_transfer_single, eth_transfers etc.
+
 **Metadata Tables**: Includes tables derived from logs: contract_creations, erc20_tokens, nft_tokens. And tables integrated from offchain data sources: token prices, NFT collection metadata and NFT token metadata tables.
+
 **Balance Tables**: Real time token balance tables: native_balances, fungible_token_balances.
+
 **Abstraction Tables**: Tables built on top of above table types for specific category or protocol. These tables are stored in various databases to better reflect their usage. Most popular databases for abstraction table include: dex, nft, ens, bridges, lending, staking, etc.
+
+In this document, we group raw tables, core event tables, chain specific metadata tables and balance tables into "Data Tables" by chain so you can find them easier.
+
+## Data Tables
+
+- [EVM Chain Tables](./evm-chain-tables.md): Tables for all EVM compatible chains, include Arbitrum, Avalanche C, Base, BSC, Ethereum, Polygon, Polygon zkEVM, zkSync.
+- [Avalanche P Chain Tables](./avalanche-p-chain-tables.md): Avalanche P chain tables.
+- [Beacon Chain Tables](./beacon-chain-tables.md): Beacon Mainnet and Beacon Goerli Testnet tables.
+- [Bitcoin Tables](./bitcoin-chain-tables.md): Bitcoin chain tables.
+- [Ripple Tables](./ripple-chain-tables.md): Ripple chain tables.
+- [Solana Tables](./solana-chain-tables.md): Solana chain tables.
+- [Sui Tables](./sui-chain-tables.md): Sui chain tables.
+
+## Abstraction Tables
+
 
 
 
