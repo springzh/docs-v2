@@ -5,11 +5,17 @@ In this section, you can find descriptions of all ZettaBlock tables and supporte
 Here is an overview the tables available:
 
 **Raw** - blocks, transactions, logs and traces tables, with decoded info saved in same table.
+
 **Decoded** - ERC20, nft_tokens and other decoded event tables.
+
 **Transfers** - ERC20, ERC721 and ERC1155 transfer data.
+
 **Balances** - Wallet's ERC20, ERC721 and ERC1155 tokens latest balance or real time balance data.
+
 **DEX** - DEX protocol related abstraction tables, such as pools, swaps tables.
+
 **NFT** - NFT related abstraction tables.
+
 **Misc** - Other abstraction tables.
 
 # Available Chains
