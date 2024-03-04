@@ -38,6 +38,6 @@ We support the following chains in data lake and realtime. More chains are being
 
 # Table Availability, Status And Freshness
 
-For detailed tables available in each chain, please check our [Data Catalog](https://stage-app.zettablock.dev/v2/explore/tables) page. 
+For detailed tables available in each chain, please check our [Data Catalog](https://app.zettablock.com/v2/explore/tables) page. 
 
-Please refer to the [Status](https://stage-app.zettablock.dev/v2/freshness) page for table status and freshness.
+Please refer to the [Status](https://app.zettablock.com/v2/freshness) page for table status and freshness.
