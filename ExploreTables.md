@@ -23,7 +23,7 @@ We support the following chains in data lake and realtime (with ![realtime_icon]
 
 We support the following chains in data lake and realtime. More chains are being onboarded and will coming soon.
 
-| Type        | Chain                 | Raw &nbsp; &nbsp; &nbsp; &nbsp; | Decoded | Transfers | Balances | DEX &nbsp; &nbsp; &nbsp; &nbsp; | NFT &nbsp; &nbsp; &nbsp; &nbsp; | Misc          |
+| Type        | Chain                 | Raw &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Decoded | Transfers | Balances | DEX &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | NFT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Misc &nbsp; &nbsp; &nbsp; &nbsp; |
 |:------------|:----------------------|:--------------|:--------------|:--------------|:--------------|:--------------|:--------------|:--------------|
 | EVM         | Ethereum              | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅            | ✅             | ✅            |
 |             | Polygon               | ✅            | ✅             | ✅            |               | ✅            | ✅             |               | 
