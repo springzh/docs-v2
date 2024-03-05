@@ -8,6 +8,7 @@ For detailed information on ZettaBlock's data models, please visit our [Data Cat
 Here is an overview the tables available on ZettaBlock at different levels of abstraction.
 
 | Data Type       | Description                                                                                    |
+|:----------------|:-----------------------------------------------------------------------------------------------|
 | Raw             | Blocks, transactions, logs and traces tables, with decoded info saved in same table.           |
 | Decoded         | ERC20, nft_tokens and other decoded event tables.                                              |
 | Transfers       | ERC20, ERC721 and ERC1155 transfer data.                                                       |
@@ -23,7 +24,7 @@ We support the following chains in data lake and realtime (with ![realtime_icon]
 We support the following chains in data lake and realtime. More chains are being onboarded and will coming soon.
 
 | Type        | Chain                 | Raw           | Decoded       | Transfers     | Balances      | DEX           | NFT           | Misc          |
-|-------------|-----------------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
+|:------------|:----------------------|:--------------|:--------------|:--------------|:--------------|:--------------|:--------------|:--------------|
 | EVM         | Ethereum              | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅            | ✅             | ✅            |
 |             | Polygon               | ✅            | ✅             | ✅            |               | ✅            | ✅             |               | 
 |             | Base                  | ✅            | ✅             | ✅            |               | ✅            |               |               | 
