@@ -1,43 +1,49 @@
-# ZettaBlock tables
+# Data Catalog
 
-In this section, you can find descriptions of all ZettaBlock tables and supported chains at different levels of abstraction.
+ZettaBlock provides a wide range of blockchain tables across EVM and non-EVM ecosystems for both indexing and analytics purposes. 
+For detailed information on ZettaBlock's data models, please visit our [Data Catalog](https://docs.zettablock.com/page/data-catalog).
 
-Here is an overview the tables available:
+## Tables Supported
 
-**Raw** - blocks, transactions, logs and traces tables, with decoded info saved in same table.
+Here is an overview the tables available on ZettaBlock at different levels of abstraction.
 
-**Decoded** - ERC20, nft_tokens and other decoded event tables.
+| Data Type       | Description                                                                                    |
+| Raw             | Blocks, transactions, logs and traces tables, with decoded info saved in same table.           |
+| Decoded         | ERC20, nft_tokens and other decoded event tables.                                              |
+| Transfers       | ERC20, ERC721 and ERC1155 transfer data.                                                       |
+| Balances        | Wallet's ERC20, ERC721 and ERC1155 tokens latest balance or real time balance data.            |
+| DEX             | DEX protocol related abstraction tables, such as pools, swaps tables.                          |
+| NFT             | NFT related abstraction tables.                                                                |
+| Misc            | Other abstraction tables such as ENS and labels.                                               |
 
-**Transfers** - ERC20, ERC721 and ERC1155 transfer data.
+# Chains Supported
 
-**Balances** - Wallet's ERC20, ERC721 and ERC1155 tokens latest balance or real time balance data.
-
-**DEX** - DEX protocol related abstraction tables, such as pools, swaps tables.
-
-**NFT** - NFT related abstraction tables.
-
-**Misc** - Other abstraction tables.
-
-# Available Chains
+We support the following chains in data lake and realtime (with ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)) across multiple data types. More chains and types are being onboarded and will coming soon.
 
 We support the following chains in data lake and realtime. More chains are being onboarded and will coming soon.
 
-| Chain                 | Raw           | Decoded       | Transfers     | Balances      | DEX           | NFT           | Misc          |
-|-----------------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| Ethereum              | ✅(realtime)  | ✅(realtime)   | ✅(realtime)  | ✅(realtime)  | ✅            | ✅             | ✅            |
-| Polygon               | ✅            | ✅             | ✅            |               | ✅            | ✅             |               | 
-| Bitcoin               | ✅            |               |               |               |               |               |               |
-| Base                  | ✅            | ✅             | ✅            |               | ✅            |               |               | 
-| Solana                | ✅            | ✅             | ✅            | ✅            |               |                | ✅            | 
-| Sui                   | ✅(realtime)  | ✅             |               |               | ✅            | ✅             |              | 
-| zkSync                | ✅            | ✅             | ✅            |               | ✅            |               |               | 
-| Polygon zkEVM         | ✅            | ✅             | ✅            |               |               |               |               |
-| BSC                   | ✅            | ✅             | ✅            |               |               |               |               |
-| Arbitrum              | ✅            | ✅             | ✅            |               |               |               |               |
-| Beacon                | ✅(realtime)  |               |               |               |               |               |               |
+| Type        | Chain                 | Raw           | Decoded       | Transfers     | Balances      | DEX           | NFT           | Misc          |
+|-------------|-----------------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
+| EVM         | Ethereum              | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅            | ✅             | ✅            |
+|             | Polygon               | ✅            | ✅             | ✅            |               | ✅            | ✅             |               | 
+|             | Base                  | ✅            | ✅             | ✅            |               | ✅            |               |               | 
+|             | zkSync                | ✅            | ✅             | ✅            |               | ✅            |               |               | 
+|             | Polygon zkEVM         | ✅            | ✅             | ✅            |               |               |               |               |
+|             | BSC                   | ✅            | ✅             | ✅            |               |               |               |               |
+|             | Arbitrum              | ✅            | ✅             | ✅            |               |               |               |               |
+| Non-EVM     | Solana                | ✅            | ✅             | ✅            | ✅            |               |                | ✅            | 
+|             | Sui                   | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅             |               |               | ✅            | ✅             |              | 
+|             | Beacon                | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg) |               |               |               |               |               |               |
+|             | Bitcoin               | ✅            |               |               |               |               |               |               |
 
-# Table Availability, Status And Freshness
+## Data Status and Freshness
 
-For detailed tables available in each chain, please check our [Data Catalog](https://app.zettablock.com/v2/explore/tables) page. 
+For detailed table status and freshness in each chain, please check out the [Status](https://app.zettablock.com/v2/freshness) page (coming soon).
 
-Please refer to the [Status](https://app.zettablock.com/v2/freshness) page for table status and freshness.
+## Appendix
+
+For those interested, the diagram below showcases **a high-level overview of ZettaBlock's approach to creating tables from raw blockchain data**. 
+
+As shown below, the hierarchy is split into 3 levels of tables - bronze, silver and gold. Bronze tables are derived from raw on-chain data that is then combined with decoded on-chain data and funneled to create the silver layer of tables. Through further data modeling, the abstraction or gold level of tables will be eventually created.
+
+![image](https://files.readme.io/729ae3d-schema-Top_Level_View.drawio.png)
