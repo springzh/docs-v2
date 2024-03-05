@@ -35,11 +35,11 @@ We support the following chains in data lake and realtime. More chains are being
 | Non-EVM     | Solana                | ✅            | ✅             | ✅            | ✅            |               |                | ✅            | 
 |             | Sui                   | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅             |               |               | ✅            | ✅             |              | 
 |             | Beacon                | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg) |               |               |               |               |               |               |
-|             | Bitcoin               | ✅            |               |               |               |               |               |               |
+|             | Bitcoin (coming soon) |               |               |               |               |               |               |               |
 
 ## Data Status and Freshness
 
-For detailed table status and freshness in each chain, please check out the [Status](https://app.zettablock.com/v2/freshness) page (coming soon).
+For detailed table status and freshness in each chain, please check out the Status page (coming soon).
 
 ## Appendix
 
