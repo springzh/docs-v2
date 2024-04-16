@@ -36,7 +36,7 @@ We support the following chains in data lake and realtime. More chains are being
 |             | Sui                   | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅             |               | ✅            | ✅            | ✅             |              | 
 |             | Beacon                | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg) |               |               |               |               |               |               |
 |             | Beacon Holesky       | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg) |               |               |               |               |               |               |
-|             | Bitcoin (coming soon) |               |               |               |               |               |               |               |
+|             | Bitcoin              | ✅            |               |               |               |               |               |               |
 
 ## Data Status and Freshness
 
