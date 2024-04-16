@@ -26,15 +26,16 @@ We support the following chains in data lake and realtime. More chains are being
 | Type        | Chain                 | Raw &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Decoded | Transfers | Balances | DEX &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | NFT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Misc &nbsp; &nbsp; &nbsp; &nbsp; |
 |:------------|:----------------------|:--------------|:--------------|:--------------|:--------------|:--------------|:--------------|:--------------|
 | EVM         | Ethereum              | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅            | ✅             | ✅            |
-|             | Polygon               | ✅            | ✅             | ✅            |               | ✅            | ✅             |               | 
-|             | Base                  | ✅            | ✅             | ✅            |               | ✅            |               |               | 
+|             | Polygon               | ✅            | ✅             | ✅            | ✅            | ✅            | ✅             |               | 
+|             | Base                  | ✅            | ✅             | ✅            | ✅            | ✅            |               |               | 
 |             | zkSync                | ✅            | ✅             | ✅            |               | ✅            |               |               | 
 |             | Polygon zkEVM         | ✅            | ✅             | ✅            |               |               |               |               |
 |             | BSC                   | ✅            | ✅             | ✅            |               |               |               |               |
 |             | Arbitrum              | ✅            | ✅             | ✅            |               |               |               |               |
 | Non-EVM     | Solana                | ✅            | ✅             | ✅            | ✅            |               |                | ✅            | 
-|             | Sui                   | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅             |               |               | ✅            | ✅             |              | 
+|             | Sui                   | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg)  | ✅             |               | ✅            | ✅            | ✅             |              | 
 |             | Beacon                | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg) |               |               |               |               |               |               |
+|             | Beacon Holesky       | ✅ ![realtime_icon](https://app.zettablock.com/assets/icons/toggle.svg) |               |               |               |               |               |               |
 |             | Bitcoin (coming soon) |               |               |               |               |               |               |               |
 
 ## Data Status and Freshness
