@@ -30,8 +30,6 @@ Depending on the topic you select to subscribe, there are various attributes you
 
 For example, to monitor all events from a certain package of Sui blockchain, you can use the following filter on the `sui_mainnet_events_raw` topic:
 
-For example, to monitor all USDT transfers, use the following filter on ethereum_token_transfers_raw topic:
-
 ```
 attributes.package_id = "0x8d97f1cd6ac663735be08d1d2b6d02a159e711586461306ce60a2b7a6a565a9e"
 ```
